@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    background: url(dance1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+nav {
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    color: white;
+    height: 8vh;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav ul li {}
+
+#change {
+    font-family: 'Fruktur', cursive;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    /* padding: 0px 39px; */
+    /* margin-top: -15px; */
+    /* margin-bottom: 11px; */
+    padding-left: 70px;
+    cursor: pointer;
+}
+
+nav img {
+    margin: 9px 0px;
+    margin-left: 17px;
+    width: 3vw;
+}
+
+.brand {
+    font-family: 'Fruktur', cursive;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.bottom i {
+    margin: 0 11px;
+    background: none;
+}
+
+#myprogessbar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+    /* z-index: 20000; */
+
+}
+
+.image {
+    height: 40px;
+    padding: 11px;
+    filter: invert(1);
+}
+
+.bottom {
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    /* position: absolute; */
+    bottom: 0;
+    left: 23vh;
+}
+
+.container {
+    height: 10vh;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* margin: 50px 125px; */
+    /* width: 257%; */
+    width: 83vh;
+}
+
+.songitem img {
+    position: absolute;
+    left: 17px;
+    /* border-radius: 274px; */
+    top: 1vh;
+    height: 5vh;
+}
+
+.sonlist {
+    margin-top: 20vh;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    background-color: #ff000052;
+    width: 45%;
+    left: 2vh;
+    height: 7vh;
+}
+
+h1 {
+    margin-top: 25px;
+}
+
+.songinfo {
+    color: white;
+    display: flex;
+    font-size: 21px;
+    margin-left: -874px;
+    margin-top: -40px;
+}
+
+.songinfo span {
+    margin-left: 15px;
+}
+
+.time {
+    position: absolute;
+    right: 12vh;
+    top: 2.4vh;
+}
+
+.songlogo {
+    height: 6vh;
+    /* filter: invert(1); */
+    position: absolute;
+    right: 2vh;
+    top: 0.3vh;
+}
+
+#gif{
+    opacity: 0;
+    /* filter: invert(1); */
+}
